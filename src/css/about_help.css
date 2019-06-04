@@ -1,0 +1,104 @@
+body {
+  background-color: #fff;
+}
+
+.about_help {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.about_help ul {
+  float: left;
+  width: 210px;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+}
+
+.about_help ul div {
+  padding-left: 20px;
+  line-height: 59px;
+  color: #6e6c6c;
+  font-size: 20px;
+}
+
+.about_help ul li:nth-of-type(4) {
+  border-radius: 0 0 5px 5px;
+}
+
+.about_help ul li {
+  cursor: pointer;
+  padding-left: 20px;
+  line-height: 49px;
+  border-top: 1px solid #dfdfdf;
+  color: #c2bcbc;
+  font-size: 16px;
+  cursor: poiter;
+}
+
+.about_help ul li:hover {
+  background-color: red;
+  color: #fff;
+}
+
+.about_help .matter {
+  margin-left: 230px;
+  width: 910px;
+  display: none;
+}
+
+.about_help .matter img {
+  width: 910px;
+}
+
+.about_help .matter h1 {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-size: 34px;
+  font-weight: 300;
+  color: #8f8e8e;
+  text-align: center;
+}
+
+.about_help .matter .red_title {
+  color: red;
+  font-weight: 600;
+  text-align: center;
+  margin: 30px 0 20px;
+}
+
+.about_help .matter div {
+  font-size: 14px;
+}
+
+.about_help .matter div strong {
+  color: #474747;
+  font-size: 14px;
+  line-height: 42px;
+}
+
+.about_help .matter div p {
+  line-height: 20px;
+}
+
+.about_help .matter div .import {
+  background-color: #dfd8d8;
+}
+
+.about_help .active {
+  display: block;
+}
+
+#matter_give div p span {
+  line-height: 32px;
+  font-size: 12px;
+  color: #504e4e;
+}
+
+#matter_sale p span {
+  line-height: 42px;
+  font-size: 14px;
+}
+
+#matter_sale p .list {
+  background-color: #ccc;
+}

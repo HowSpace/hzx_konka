@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../img/favicon.png">
+    <link rel="stylesheet" href="../css/reset.min.css">
+    <link rel="stylesheet" href="../css/_head.min.css">
+    <link rel="stylesheet" href="../css/_right_nav.min.css">
+    <link rel="stylesheet" href="../css/login.min.css">
+    <link rel="stylesheet" href="../css/_foot.min.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <srcipt src="../js/_head.log.js"></srcipt>
+    <title>会员登录</title>
+</head>
+
+<body>
+    <!-- header_start -->
+    <header>
+    </header>
+    <script>
+        $('header').load('./_head.html');
+    </script>
+    <!-- header_end -->
+    <!-- right_nav_start -->
+    <div class="right_fixed_tool_nav"></div>
+    <script>
+        $('.right_fixed_tool_nav').load('./_right_nav.html');
+    </script>
+    <!-- right_nav_end -->
+    <!-- content_start -->
+    <div class="login_content">
+        <div class="content clearfix">
+            <div class="login_form">
+                <form id="form_login" onsubmit="return false">
+                    <div class="form_title clearfix">
+                        <span>会员登录*</span>
+                        <a href="./registor.html">立即注册成为会员>></a>
+                    </div>
+                    <div class="form_content">
+                        <div class="uname clearfix">
+                            <span>账号*</span><input type="text" name="username" id="username" placeholder="手机号/邮箱/用户名">
+                        </div>
+                        <div class="uword clearfix">
+                            <span>密码*</span><input type="password" name="password" id="password" placeholder="登录密码">
+                        </div>
+                        <div class="uemail clearfix">
+                            <span>电子邮箱*</span><input type="text" name="email" id="email" placeholder="登录邮箱">
+                        </div>
+                        <div class="self_forget clearfix">
+                            <label>
+                                <input type="checkbox"><span>自动登录</span>
+                            </label>
+                            <a href="./registor.html">忘记密码?</a>
+                        </div>
+                        <button id="btn">登录</button>
+                </form>
+                <div id="error"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- content_end -->
+    <!-- footer_start -->
+    <footer>
+    </footer>
+    <script>
+        $('footer').load('./_foot.html');
+    </script>
+    <!-- footer_end -->
+</body>
+<script src="../js/log_reg.cookie.js"></script>
+<script src="../js/user_login.js"></script>
+<script src="../js/login_reg.head.js"></script>
+<script src="../js/_right_nav.js"></script>
+<script src="../js/ajax.js"></script>
+
+
+</html>

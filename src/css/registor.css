@@ -1,0 +1,218 @@
+@charset "UTF-8";
+.head {
+  position: relative;
+}
+
+.head .s_nav {
+  position: absolute;
+  z-index: 999;
+  top: 60px;
+  left: 50%;
+  margin-left: -570px;
+  padding: 0;
+}
+
+/*表单标题*/
+.reg_content {
+  position: relative;
+  height: 588px;
+  background-image: url(https://www.konka.com/public/images/2a/0c/45/6e637f1275a0a2547c4b31a8859a49212ab2703b.jpg?50827_OW1920_OH588);
+}
+
+.reg_content .reg_form {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  top: 140px;
+  margin-left: 115px;
+  width: 450px;
+  height: 365px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.reg_content .reg_form .form_title {
+  padding: 10px 15px;
+  height: 22px;
+  background-color: #f5f4f4;
+}
+
+.reg_content .reg_form .form_title span {
+  line-height: 22px;
+  font-size: 16px;
+}
+
+.reg_content .reg_form .form_title a {
+  float: right;
+  background-color: #e61010;
+  line-height: 22px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.reg_content .reg_form .form_title a:hover {
+  background-color: #700707;
+}
+
+/*表单内容*/
+.form_content {
+  position: relative;
+  padding: 15px;
+  height: 287px;
+}
+
+.form_content span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.form_content span i {
+  color: red;
+}
+
+.form_content .success {
+  color: green;
+}
+
+.form_content input {
+  padding: 6px 12px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  height: 20px;
+  width: 70%;
+  float: right;
+}
+
+.form_content div {
+  margin-top: 10px;
+  height: 35px;
+}
+
+.form_content .uname {
+  position: relative;
+}
+
+.form_content .uname span {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+.form_content .uname .warn {
+  display: none;
+}
+
+.form_content .uname .zhixiang {
+  position: relative;
+  left: 410px;
+  top: 0px;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 20px solid #eeeeee;
+}
+
+.form_content .uname .uname_error {
+  position: absolute;
+  left: 430px;
+  top: -15px;
+  width: 90px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  padding: 9px 10px;
+  border-radius: 2px;
+  background-color: #eeeeee;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.form_content .email {
+  position: relative;
+}
+
+.form_content .email span {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+.form_content .uword {
+  position: relative;
+}
+
+.form_content .uword span {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+.form_content .sure {
+  position: relative;
+}
+
+.form_content .sure span {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+.form_content label {
+  position: relative;
+  cursor: pointer;
+  left: 120px;
+  top: 15px;
+  font-size: 14px;
+}
+
+.form_content label span {
+  position: absolute;
+  left: 25px;
+  top: 4px;
+  width: 100px;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.form_content label input {
+  position: absolute;
+  left: -25px;
+  top: -3px;
+  width: 14px;
+}
+
+.form_content .submit {
+  position: absolute;
+  left: 115px;
+  top: 260px;
+  background-color: #f99e1e;
+  border: 1px solid #ccc;
+  width: 58px;
+  height: 35px;
+  padding: 6px 12px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form_content .submit:hover {
+  background-color: #ce7516;
+}
+
+#username-error,
+#uword-error,
+#email-error,
+#sure-error {
+  color: red;
+  width: 220px;
+  display: inline-block;
+  position: relative;
+  left: 185px;
+  top: -28px;
+  z-index: 40;
+  padding: 5px;
+  background-color: azure;
+  font-size: 12px;
+}

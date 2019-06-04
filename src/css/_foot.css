@@ -1,0 +1,176 @@
+.foot {
+  background-color: #fff;
+  width: 100%;
+}
+
+.foot .content .foot_serve {
+  padding: 40px 0 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.foot .content .message_list {
+  padding: 50px 0;
+}
+
+.foot_serve ul {
+  margin: 0 20px;
+}
+
+.foot_serve ul li {
+  margin-left: 35px;
+  width: 185px;
+  float: left;
+}
+
+.foot_serve ul li img {
+  margin: 15px 12px 0 0;
+  float: left;
+}
+
+.foot_serve ul li div {
+  color: #a3a1a1;
+}
+
+.foot_serve ul li div h4 {
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.foot_serve ul li div small {
+  font-size: 12px;
+}
+
+.message_list_left {
+  float: left;
+}
+
+.message_list_left ul {
+  float: left;
+}
+
+.message_list_left ul li {
+  margin: 20px 0;
+}
+
+.message_list_left ul li span {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.message_list_left ul li a {
+  font-size: 12px;
+  color: #686565;
+}
+
+.message_list_left ul li a:hover {
+  color: red;
+}
+
+.message_list_left ul li img {
+  display: none;
+  width: 80px;
+}
+
+.help {
+  margin-right: 70px;
+}
+
+.news {
+  margin-right: 80px;
+}
+
+.invest {
+  margin-right: 55px;
+}
+
+.member_html {
+  margin-right: 40px;
+}
+
+.about_us {
+  margin-right: 70px;
+}
+
+.follow_us li {
+  position: relative;
+}
+
+.follow_us li:hover img {
+  position: absolute;
+  z-index: 99;
+  display: block;
+  top: -30px;
+  right: -60px;
+}
+
+.message_list_right {
+  width: 250px;
+  height: 125px;
+  float: right;
+  padding-left: 20px;
+  border-left: 1px solid #ccc;
+  text-align: center;
+}
+
+.message_list_right p {
+  color: #625c5c;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.message_list_right span {
+  color: red;
+  font-size: 24px;
+}
+
+.message_list_right div {
+  margin-top: 30px;
+}
+
+.message_list_right div a {
+  padding: 5px;
+  margin-left: 10px;
+  border: 1px solid red;
+  color: red;
+}
+
+.foot_message {
+  padding: 0 100px;
+  height: 100px;
+  background-color: #313131;
+  line-height: 100px;
+}
+
+.foot_message .foot_logo {
+  line-height: 100px;
+  float: left;
+}
+
+.foot_message .copyright {
+  float: right;
+  font-size: 12px;
+}
+
+.foot_message .copyright p {
+  color: #818080;
+  float: left;
+}
+
+.foot_message .copyright span {
+  color: #818080;
+}
+
+.foot_message .copyright a {
+  color: #818080;
+}
+
+.foot_message .copyright a:hover {
+  color: #fff;
+}
+
+.foot_img {
+  background-color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}

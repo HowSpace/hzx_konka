@@ -1,0 +1,189 @@
+@charset "utf-8";
+body {
+    background-color: #fff;
+}
+
+.cart_list {
+    background-color: #fff;
+    min-height: 500px;
+    margin-top: 100px;
+}
+
+.cart_title {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    p {
+        font-size: 18px;
+        span {
+            font-size: 14px;
+            color: #ccc;
+        }
+    }
+}
+
+.commodity_list {
+    margin-top: 20px;
+    .cart_head,
+    .cart_body {
+        div {
+            float: left;
+            font-size: 14px;
+        }
+        .all_check {
+            width: 65px;
+            padding: 0 15px;
+        }
+        .commodity {
+            width: 440px;
+        }
+        .alone_price,
+        .all_price {
+            width: 95px;
+        }
+        .num,
+        .operation {
+            padding: 0 15px;
+            width: 160px;
+        }
+    }
+    .cart_head {
+        height: 40px;
+        background-color: rgb(240, 233, 233);
+        border: 1px solid #ccc;
+        div {
+            line-height: 40px;
+        }
+    }
+    .cart_body {
+        background-color: rgb(253, 239, 221);
+        .choose_comm {
+            width: 100%;
+            padding: 10px 0;
+            border-bottom: 1px solid rgb(177, 175, 175);
+            .all_check {
+                line-height: 34px;
+            }
+        }
+        .commodity_information {
+            img {
+                width: 79px;
+            }
+            .commodity_img {
+                display: block;
+            }
+            .commodity_title {
+                padding-top: 5px;
+                margin-left: 30px;
+                width: 300px;
+            }
+        }
+        .alone_price {
+            line-height: 34px;
+        }
+        .all_price {
+            line-height: 34px;
+        }
+        .operation {
+            line-height: 34px;
+        }
+    }
+    .cart_foot {
+        border: 1px solid #ccc;
+        height: 45px;
+        padding: 15px 0;
+        line-height: 25px;
+        div {
+            float: left;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .all_check {
+            width: 65px;
+            padding: 0 15px;
+        }
+        .del_check {
+            width: 340px;
+            span {
+                color: #ccc;
+                font-size: 12px;
+                cursor: pointer;
+            }
+        }
+        .price_title {
+            width: 430px;
+            margin: 0 15px;
+            padding-left: 60px;
+            .account_price {
+                color: red;
+                font-size: 24px;
+                font-weight: 600;
+            }
+        }
+        .account {
+            width: 160px;
+            a {
+                width: 54px;
+                height: 24px;
+                padding: 10px 16px;
+                background-color: rgb(241, 40, 14);
+                color: #fff;
+                border-radius: 5px;
+                &:hover {
+                    background-color: rgb(199, 29, 29);
+                }
+            }
+        }
+    }
+}
+
+.cart_body {
+    .commodity_information {
+        .commodity_title {
+            span {
+                font-size: 12px;
+                display: block;
+            }
+            h5,
+            span,
+            p {
+                padding-bottom: 5px;
+            }
+        }
+    }
+    .commodity_num {
+        div {
+            float: left;
+            width: 28px;
+            height: 27px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            &:hover {
+                background-color: #ccc;
+            }
+        }
+        span {
+            margin: 0 auto;
+            padding: 0 9px;
+            line-height: 27px;
+        }
+        input {
+            float: left;
+            width: 57px;
+            padding: 5px 10px;
+            text-align: center;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            appearance: none;
+            margin: 0;
+        }
+    }
+    .commodity_del {
+        a {
+            cursor: pointer;
+            font-size: 12px;
+        }
+    }
+}

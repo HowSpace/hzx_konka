@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../img/favicon.png">
+    <link rel="stylesheet" href="../css/reset.min.css">
+    <link rel="stylesheet" href="../css/_head.min.css">
+    <link rel="stylesheet" href="../css/_right_nav.min.css">
+    <link rel="stylesheet" href="../css/registor.min.css">
+    <link rel="stylesheet" href="../css/_foot.min.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <srcipt src="../js/_head.log.js"></srcipt>
+    <title>注册成为会员</title>
+
+</head>
+
+<body>
+    <!-- header_start -->
+    <header></header>
+    <script>
+        $('header').load('_head.html');
+    </script>
+    <!-- header_end -->
+    <!-- right_nav_start -->
+    <div class="right_fixed_tool_nav"></div>
+    <script>
+        $('.right_fixed_tool_nav').load('_right_nav.html');
+    </script>
+    <!-- right_nav_end -->
+    <!-- content_start -->
+    <div class="reg_content">
+        <div class="content clearfix">
+            <div class="reg_form">
+                <form id="form_reg" action="http://10.31.161.13/konka_1-master/konka_1-master/lib/php/reg_message.php" method="post">
+                    <div class="form_title">
+                        <span>注册成为会员</span>
+                        <a href="login.html">立即登录>></a>
+                    </div>
+                    <div class="form_content">
+                        <div class="uname form-group">
+                            <span class="form_little_title">登录账号<i>*</i></span>
+                            <input type="text" name="username" id="username" placeholder="手机号/邮箱/用户名">
+                            <div class="warn">
+                                <h3 class="zhixiang"></h3>
+                                <div class="uname_error">请输入用户名</div>
+                            </div>
+                        </div>
+                        <div class="email form-group">
+                            <span class="form_little_title">电子邮箱<i>*</i></span>
+                            <input type="text" name="email" id="email" placeholder="邮箱账号">
+                        </div>
+                        <div class="uword form-group">
+                            <span class="form_little_title">登录密码<i>*</i></span>
+                            <input type="password" name="uword" id="uword" placeholder="登录密码">
+                        </div>
+                        <div class="sure form-group">
+                            <span class="form_little_title">确认密码<i>*</i></span>
+                            <input type="password" name="sure" id="sure" placeholder="再次输入登录密码">
+                        </div>
+                        <label>
+                            <input type="checkbox" checked="checkbox">同意<span class="argee">《会员注册条款》</span>
+                        </label>
+                        <input name="subbtn" id="subbtn" class="submit" type="button" value="提交"></input>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </script>
+    <!-- content_end -->
+    <!-- footer_start -->
+    <footer></footer>
+    <script>
+        $('footer').load('./_foot.html');
+    </script>
+    <!-- footer_end -->
+</body>
+<script src="../js/log_reg.cookie.js"></script>
+<script src="../js/login_reg.head.js"></script>
+<script src="../js/_right_nav.js"></script>
+<script src="../../node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="../js/registor.js"></script>
+
+</html>

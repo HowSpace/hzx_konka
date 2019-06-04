@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/*右侧工具导航*/
+
+.right_nav {
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    bottom: 160px;
+    li {
+        text-align: center;
+        margin: -1px 0 -1px 0;
+        transition: all 0.2s;
+        width: 42px;
+        height: 42px;
+        background-color: #fff;
+        border: 0.5px solid #ccc;
+        a {
+            text-align: center;
+            .tool_title {
+                color: #fff;
+                display: none;
+            }
+        }
+    }
+}
+
+.right_nav {
+    li:hover {
+        background-color: red;
+        i {
+            display: none;
+        }
+        img {
+            display: none;
+        }
+        .tool_title {
+            padding: 5px;
+            display: block;
+        }
+    }
+}
+
+a {
+    span {
+        img {
+            margin: 7px;
+        }
+        .iconfont {
+            display: block;
+            color: rgb(70, 67, 67);
+            font-size: 24px;
+            line-height: 40px;
+            text-align: center;
+        }
+    }
+}

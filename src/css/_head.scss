@@ -1,0 +1,215 @@
+@charset "utf-8";
+.head {
+    width: 100%;
+    background-color: rgb(36, 33, 33);
+    height: 40px;
+    // top_nav
+    .top_nav {
+        a {
+            text-decoration: none;
+            font-size: 12px;
+            color: rgb(172, 170, 170);
+        }
+        span {
+            margin: 0 6px;
+            color: rgb(68, 67, 67);
+        }
+        .topnav {
+            height: 40px;
+            line-height: 40px;
+            float: left;
+        }
+        .cart {
+            float: right;
+            margin: 0 0 0 15px;
+            padding: 0 19px;
+            background-color: rgb(65, 60, 60);
+            line-height: 38px;
+            img {
+                width: 20px;
+                top: -2px;
+                position: relative;
+            }
+            span {
+                color: rgb(172, 170, 170);
+            }
+        }
+        .log_reg {
+            float: right;
+            line-height: 40px;
+        }
+        #user {
+            float: right;
+            padding: 0 12px;
+            width: 190px;
+            height: 40px;
+            color: rgb(89, 179, 189);
+            line-height: 40px;
+            li {
+                font-size: 12px;
+                float: left;
+                a {
+                    cursor: pointer;
+                }
+            }
+            .username {
+                width: 35px;
+                padding: 0 12px;
+                font-weight: 500;
+                a {
+                    color: rgb(89, 179, 189);
+                }
+            }
+        }
+    }
+    .s_nav {
+        position: relative;
+        overflow: hidden;
+        z-index: 999;
+        background-color: rgb(228, 226, 226);
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .3);
+        height: 50px;
+    }
+}
+
+.s_nav {
+    div {
+        float: left;
+        a {
+            font-size: 14px;
+        }
+    }
+    .logo {
+        text-align: center;
+        width: 161px;
+        line-height: 48px;
+        img {
+            line-height: 50px;
+        }
+    }
+    .row {
+        line-height: 48px;
+        text-align: center;
+        .hover {
+            width: 72px;
+            &:hover {
+                background-color: #fff;
+                a {
+                    color: red;
+                }
+                .item {
+                    display: block;
+                }
+            }
+        }
+        .search {
+            margin-left: 10px;
+            float: right;
+        }
+    }
+}
+
+// 导航商品
+.hover {
+    .item {
+        width: 1140px;
+        height: 300px;
+        display: none;
+        position: relative;
+        z-index: 999;
+        ul {
+            height: 300px;
+            width: 1140px;
+            padding-top: 10px;
+            position: fixed;
+            background-color: #fff;
+            box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .3);
+            li {
+                width: 160px;
+                padding: 0 15px;
+                float: left;
+                img {
+                    width: 160px;
+                    cursor: pointer;
+                }
+                h4 {
+                    font-size: 16px;
+                    line-height: 30px;
+                    color: #222;
+                }
+                span {
+                    line-height: 30px;
+                    color: #989898;
+                }
+                p {
+                    color: #ed1c24;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}
+
+// 每类商品下拉列表的偏移
+
+/*tv*/
+
+.tv {
+    .item {
+        left: -233px;
+    }
+}
+
+
+/*refrigerator*/
+
+.refrigerator {
+    .item {
+        left: -305px;
+    }
+}
+
+
+/*wash*/
+
+.wash {
+    .item {
+        left: -377px;
+    }
+}
+
+
+/*life*/
+
+.life {
+    .item {
+        left: -449px;
+    }
+}
+
+
+/*hardware*/
+
+.hardware {
+    .item {
+        left: -521px;
+    }
+}
+
+
+/*terminal*/
+
+.terminal {
+    .item {
+        left: -593px;
+    }
+}
+
+
+/*super*/
+
+.super {
+    .item {
+        left: -665px;
+    }
+}

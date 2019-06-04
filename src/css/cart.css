@@ -1,0 +1,215 @@
+body {
+  background-color: #fff;
+}
+
+.cart_list {
+  background-color: #fff;
+  min-height: 500px;
+  margin-top: 100px;
+}
+
+.cart_title {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.cart_title p {
+  font-size: 18px;
+}
+
+.cart_title p span {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.commodity_list {
+  margin-top: 20px;
+}
+
+.commodity_list .cart_head div,
+.commodity_list .cart_body div {
+  float: left;
+  font-size: 14px;
+}
+
+.commodity_list .cart_head .all_check,
+.commodity_list .cart_body .all_check {
+  width: 65px;
+  padding: 0 15px;
+}
+
+.commodity_list .cart_head .commodity,
+.commodity_list .cart_body .commodity {
+  width: 440px;
+}
+
+.commodity_list .cart_head .alone_price,
+.commodity_list .cart_head .all_price,
+.commodity_list .cart_body .alone_price,
+.commodity_list .cart_body .all_price {
+  width: 95px;
+}
+
+.commodity_list .cart_head .num,
+.commodity_list .cart_head .operation,
+.commodity_list .cart_body .num,
+.commodity_list .cart_body .operation {
+  padding: 0 15px;
+  width: 160px;
+}
+
+.commodity_list .cart_head {
+  height: 40px;
+  background-color: #f0e9e9;
+  border: 1px solid #ccc;
+}
+
+.commodity_list .cart_head div {
+  line-height: 40px;
+}
+
+.commodity_list .cart_body {
+  background-color: #fdefdd;
+}
+
+.commodity_list .cart_body .choose_comm {
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid #b1afaf;
+}
+
+.commodity_list .cart_body .choose_comm .all_check {
+  line-height: 34px;
+}
+
+.commodity_list .cart_body .commodity_information img {
+  width: 79px;
+}
+
+.commodity_list .cart_body .commodity_information .commodity_img {
+  display: block;
+}
+
+.commodity_list .cart_body .commodity_information .commodity_title {
+  padding-top: 5px;
+  margin-left: 30px;
+  width: 300px;
+}
+
+.commodity_list .cart_body .alone_price {
+  line-height: 34px;
+}
+
+.commodity_list .cart_body .all_price {
+  line-height: 34px;
+}
+
+.commodity_list .cart_body .operation {
+  line-height: 34px;
+}
+
+.commodity_list .cart_foot {
+  border: 1px solid #ccc;
+  height: 45px;
+  padding: 15px 0;
+  line-height: 25px;
+}
+
+.commodity_list .cart_foot div {
+  float: left;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.commodity_list .cart_foot .all_check {
+  width: 65px;
+  padding: 0 15px;
+}
+
+.commodity_list .cart_foot .del_check {
+  width: 340px;
+}
+
+.commodity_list .cart_foot .del_check span {
+  color: #ccc;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.commodity_list .cart_foot .price_title {
+  width: 430px;
+  margin: 0 15px;
+  padding-left: 60px;
+}
+
+.commodity_list .cart_foot .price_title .account_price {
+  color: red;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.commodity_list .cart_foot .account {
+  width: 160px;
+}
+
+.commodity_list .cart_foot .account a {
+  width: 54px;
+  height: 24px;
+  padding: 10px 16px;
+  background-color: #f1280e;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.commodity_list .cart_foot .account a:hover {
+  background-color: #c71d1d;
+}
+
+.cart_body .commodity_information .commodity_title span {
+  font-size: 12px;
+  display: block;
+}
+
+.cart_body .commodity_information .commodity_title h5,
+.cart_body .commodity_information .commodity_title span,
+.cart_body .commodity_information .commodity_title p {
+  padding-bottom: 5px;
+}
+
+.cart_body .commodity_num div {
+  float: left;
+  width: 28px;
+  height: 27px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.cart_body .commodity_num div:hover {
+  background-color: #ccc;
+}
+
+.cart_body .commodity_num span {
+  margin: 0 auto;
+  padding: 0 9px;
+  line-height: 27px;
+}
+
+.cart_body .commodity_num input {
+  float: left;
+  width: 57px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.cart_body .commodity_num input::-webkit-outer-spin-button,
+.cart_body .commodity_num input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.cart_body .commodity_del a {
+  cursor: pointer;
+  font-size: 12px;
+}

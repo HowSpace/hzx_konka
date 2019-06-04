@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../img/favicon.png">
+    <link rel="stylesheet" href="../css/reset.min.css">
+    <link rel="stylesheet" href="../css/_head.min.css">
+    <link rel="stylesheet" href="../css/_right_nav.min.css">
+    <link rel="stylesheet" href="../css/cart.min.css">
+    <link rel="stylesheet" href="../css/_foot.min.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <srcipt src="../js/_head.log.js"></srcipt>
+    <title>我的购物车</title>
+
+</head>
+
+<body>
+    <!-- header_start -->
+    <header></header>
+    <script>
+        $('header').load('./_head.html');
+    </script>
+    <!-- header_end -->
+    <!-- right_rool_nav_start -->
+    <div class="right_nav">
+
+    </div>
+    <script>
+        $('.right_nav').load('./_right_nav.html');
+    </script>
+    <!-- right_rool_nav_end -->
+    <!-- conten_start -->
+    <div class="cart_list content">
+        <div class="cart_title">
+            <p>购物车<span>Shopping Cart</span></p>
+        </div>
+        <div class="commodity_list">
+            <div class="cart_head clearfix">
+                <div class="all_check">
+                    <label>
+                        <input type="checkbox" class="all_check_total little_check_point">全选
+                    </label>
+                </div>
+                <div class="commodity">
+                    商品
+                </div>
+                <div class="alone_price">
+                    单价
+                </div>
+                <div class="num">
+                    数量
+                </div>
+                <div class="all_price">
+                    小计
+                </div>
+                <div class="operation">
+                    操作
+                </div>
+            </div>
+            <div class="cart_body clearfix">
+                <!-- <div class="choose_comm">
+                    <div class="commodity_check all_check">
+                        <input type="checkbox">
+                    </div>
+                    <div class="commodity_information commodity">
+                        <div class="commodity_img">
+                            <a href="./details.html">
+                                <img src="https://www.konka.com/public/images/1c/9f/d1/88122a09d3f1e92b1fd7db6388f595063aec7e61.jpg?10127_OW800_OH800">
+                            </a>
+                        </div>
+                        <div class="commodity_title">
+                            <h5 href="./details.html">
+                                <a href="details.html">LED50P7 50吋超薄智能K歌</a></h5>
+                            <span>LED50P7</span>
+                            <p>AI人工智能 防蓝光模式 2G+16G</p>
+                        </div>
+                    </div>
+                    <div class="commodity_alone_price alone_price">
+                        <sapn class="little_alone_price">1799.00</sapn>
+                    </div>
+                    <div class="commodity_num num clearfix">
+                        <div class="commodity_num_minus">
+                            <span class="minus_btn">-</span>
+                        </div>
+                        <input type="text" value="1">
+                        <div class="commodity_num_add">
+                            <span class="add_btn">+</span>
+                        </div>
+                    </div>
+                    <div class="commodity_all_price all_price">
+                        <span class="commodity_price">1799.00</span>
+                    </div>
+                    <div class="commodity_del operation">
+                        <a>删除</a>
+                    </div>
+                </div> -->
+            </div>
+
+            <div class="cart_foot">
+                <div class="all_check">
+                    <label>
+                        <input type="checkbox" class="all_check_total little_check_point">全选
+                    </label>
+                </div>
+                <div class="del_check">
+                    <span>删除选中</span>
+                </div>
+                <div class="price_title">
+                    <div class="">已选择<span style="font-weight: 600;color:tomato" class="all_commodity_num"></span>件商品，优惠后金额：</div>
+                    <div class="account_price"></div>
+                </div>
+                <div class="account">
+                    <a href="" class="account_btn">去结算</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- content_end -->
+    <!-- footer_start -->
+    <footer></footer>
+    <script>
+        $('footer').load('_foot.html');
+    </script>
+    <!-- footer_end -->
+</body>
+<script src="../js/log_reg.cookie.js"></script>
+<script src="../js/_head.js"></script>
+<script src="../js/_right_nav.js"></script>
+<script src="../js/cart_cookie.js"></script>
+<script src="../js/ajax.js"></script>
+<script src="../js/cart.js"></script>
+<script src="../js/user_login.js"></script>
+
+</html>

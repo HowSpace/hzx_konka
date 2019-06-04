@@ -1,0 +1,169 @@
+@charset "UTF-8";
+.head {
+  position: relative;
+}
+
+.head .s_nav {
+  position: absolute;
+  z-index: 999;
+  top: 60px;
+  left: 50%;
+  margin-left: -570px;
+  padding: 0;
+}
+
+/*表单标题*/
+.login_content {
+  height: 588px;
+  position: relative;
+  background-image: url(https://www.konka.com/public/images/2a/0c/45/6e637f1275a0a2547c4b31a8859a49212ab2703b.jpg?50827_OW1920_OH588);
+}
+
+.login_content .login_form {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  top: 140px;
+  margin-left: 115px;
+  width: 450px;
+  height: 315px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.login_content .login_form .form_title {
+  padding: 10px 15px;
+  height: 22px;
+  background-color: #f5f4f4;
+}
+
+.login_content .login_form .form_title span {
+  line-height: 22px;
+  font-size: 16px;
+}
+
+.login_content .login_form .form_title a {
+  float: right;
+  background-color: #f1c181;
+  line-height: 22px;
+  font-size: 12px;
+  padding: 2px;
+  color: #fff;
+}
+
+.login_content .login_form .form_title a:hover {
+  background-color: #8f6313;
+}
+
+.login_content .login_form #error {
+  position: relative;
+  z-index: 99;
+  background-color: #e7cabf;
+  color: red;
+  width: 220px;
+  top: -200px;
+  left: 100px;
+  font-weight: 500;
+}
+
+/*表单内容*/
+.form_content {
+  position: relative;
+  padding: 15px;
+}
+
+.form_content span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.form_content input {
+  padding: 6px 12px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  height: 20px;
+  width: 70%;
+  float: right;
+}
+
+.form_content div {
+  margin-top: 15px;
+}
+
+.form_content .uname {
+  position: relative;
+}
+
+.form_content .uname span {
+  position: absolute;
+  left: 35px;
+  top: 10px;
+}
+
+.form_content .uword {
+  position: relative;
+}
+
+.form_content .uword span {
+  position: absolute;
+  left: 35px;
+  top: 10px;
+}
+
+.form_content .uemail {
+  position: relative;
+}
+
+.form_content .uemail span {
+  position: absolute;
+  left: 8px;
+  top: 10px;
+}
+
+.form_content .self_forget {
+  position: relative;
+}
+
+.form_content .self_forget label {
+  cursor: pointer;
+}
+
+.form_content .self_forget input {
+  position: absolute;
+  left: 95px;
+  width: 15px;
+}
+
+.form_content .self_forget span {
+  position: absolute;
+  left: 120px;
+  top: 5px;
+  font-weight: 400;
+}
+
+.form_content .self_forget a {
+  color: #6d6b6b;
+  float: right;
+}
+
+.form_content .self_forget a:hover {
+  color: #000;
+}
+
+.form_content button {
+  position: absolute;
+  left: 115px;
+  top: 220px;
+  background-color: #d11919;
+  border: 1px solid #ccc;
+  width: 58px;
+  height: 35px;
+  padding: 6px 12px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form_content button:hover {
+  background-color: #a01c1c;
+}

@@ -1,0 +1,161 @@
+@charset "utf-8";
+.foot {
+    background-color: #fff;
+    width: 100%;
+    .content {
+        .foot_serve {
+            padding: 40px 0 20px;
+            border-bottom: 1px solid #ccc;
+        }
+        .message_list {
+            padding: 50px 0;
+        }
+    }
+}
+
+.foot_serve {
+    ul {
+        margin: 0 20px;
+        li {
+            margin-left: 35px;
+            width: 185px;
+            float: left;
+            img {
+                margin: 15px 12px 0 0;
+                float: left;
+            }
+            div {
+                color: rgb(163, 161, 161);
+                h4 {
+                    font-size: 18px;
+                    padding: 10px 0;
+                }
+                small {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+.message_list_left {
+    float: left;
+    ul {
+        float: left;
+        li {
+            margin: 20px 0;
+            span {
+                font-weight: 600;
+                font-size: 16px;
+            }
+            a {
+                font-size: 12px;
+                color: rgb(104, 101, 101);
+                &:hover {
+                    color: red;
+                }
+            }
+            img {
+                display: none;
+                width: 80px;
+            }
+        }
+    }
+}
+
+.help {
+    margin-right: 70px;
+}
+
+.news {
+    margin-right: 80px;
+}
+
+.invest {
+    margin-right: 55px;
+}
+
+.member_html {
+    margin-right: 40px;
+}
+
+.about_us {
+    margin-right: 70px;
+}
+
+.follow_us {
+    li {
+        position: relative;
+        &:hover {
+            img {
+                position: absolute;
+                z-index: 99;
+                display: block;
+                top: -30px;
+                right: -60px;
+            }
+        }
+    }
+}
+
+.message_list_right {
+    width: 250px;
+    height: 125px;
+    float: right;
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+    text-align: center;
+    p {
+        color: rgb(98, 92, 92);
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    span {
+        color: red;
+        font-size: 24px;
+    }
+    div {
+        margin-top: 30px;
+        a {
+            padding: 5px;
+            margin-left: 10px;
+            border: 1px solid red;
+            color: red;
+        }
+    }
+}
+
+.foot_message {
+    padding: 0 100px;
+    height: 100px;
+    background-color: #313131;
+    line-height: 100px;
+    .foot_logo {
+        line-height: 100px;
+        float: left;
+    }
+    .copyright {
+        float: right;
+        font-size: 12px;
+        p {
+            color: rgb(129, 128, 128);
+            float: left;
+        }
+        span {
+            color: rgb(129, 128, 128);
+        }
+        a {
+            color: rgb(129, 128, 128);
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.foot_img {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

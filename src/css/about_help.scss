@@ -1,0 +1,100 @@
+@charset 'utf-8';
+body {
+    background-color: #fff;
+}
+
+.about_help {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    ul {
+        float: left;
+        width: 210px;
+        border: 1px solid #dfdfdf;
+        border-radius: 5px;
+        div {
+            padding-left: 20px;
+            line-height: 59px;
+            color: rgb(110, 108, 108);
+            font-size: 20px;
+        }
+        li:nth-of-type(4) {
+            border-radius: 0 0 5px 5px;
+        }
+        li {
+            cursor: pointer;
+            padding-left: 20px;
+            line-height: 49px;
+            border-top: 1px solid #dfdfdf;
+            color: rgb(194, 188, 188);
+            font-size: 16px;
+            cursor: poiter;
+            &:hover {
+                background-color: red;
+                color: #fff;
+            }
+        }
+    }
+    .matter {
+        margin-left: 230px;
+        width: 910px;
+        display: none;
+        img {
+            width: 910px;
+        }
+        h1 {
+            padding-top: 20px;
+            padding-bottom: 40px;
+            font-size: 34px;
+            font-weight: 300;
+            color: rgb(143, 142, 142);
+            text-align: center;
+        }
+        .red_title {
+            color: red;
+            font-weight: 600;
+            text-align: center;
+            margin: 30px 0 20px;
+        }
+        div {
+            font-size: 14px;
+            strong {
+                color: rgb(71, 71, 71);
+                font-size: 14px;
+                line-height: 42px;
+            }
+            p {
+                line-height: 20px;
+            }
+            .import {
+                background-color: rgb(223, 216, 216);
+            }
+        }
+    }
+    .active {
+        display: block;
+    }
+}
+
+#matter_give {
+    div {
+        p {
+            span {
+                line-height: 32px;
+                font-size: 12px;
+                color: rgb(80, 78, 78);
+            }
+        }
+    }
+}
+
+#matter_sale {
+    p {
+        span {
+            line-height: 42px;
+            font-size: 14px;
+        }
+        .list {
+            background-color: #ccc;
+        }
+    }
+}

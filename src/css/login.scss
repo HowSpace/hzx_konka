@@ -1,0 +1,149 @@
+@charset "utf-8";
+.head {
+    position: relative;
+    .s_nav {
+        position: absolute;
+        z-index: 999;
+        top: 60px;
+        left: 50%;
+        margin-left: -570px;
+        padding: 0;
+    }
+}
+
+
+/*表单标题*/
+
+.login_content {
+    height: 588px;
+    position: relative;
+    background-image: url(https://www.konka.com/public/images/2a/0c/45/6e637f1275a0a2547c4b31a8859a49212ab2703b.jpg?50827_OW1920_OH588);
+    .login_form {
+        position: absolute;
+        z-index: 10;
+        left: 50%;
+        top: 140px;
+        margin-left: 115px;
+        width: 450px;
+        height: 315px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        .form_title {
+            padding: 10px 15px;
+            height: 22px;
+            background-color: rgb(245, 244, 244);
+            span {
+                line-height: 22px;
+                font-size: 16px;
+            }
+            a {
+                float: right;
+                background-color: rgb(241, 193, 129);
+                line-height: 22px;
+                font-size: 12px;
+                padding: 2px;
+                color: #fff;
+                &:hover {
+                    background-color: rgb(143, 99, 19);
+                }
+            }
+        }
+        #error {
+            position: relative;
+            z-index: 99;
+            background-color: rgb(231, 202, 191);
+            color: red;
+            width: 220px;
+            top: -200px;
+            left: 100px;
+            font-weight: 500;
+        }
+    }
+}
+
+
+/*表单内容*/
+
+.form_content {
+    position: relative;
+    padding: 15px;
+    span {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    input {
+        padding: 6px 12px;
+        border-radius: 2px;
+        border: 1px solid #ccc;
+        height: 20px;
+        width: 70%;
+        float: right;
+    }
+    div {
+        margin-top: 15px;
+    }
+    .uname {
+        position: relative;
+        span {
+            position: absolute;
+            left: 35px;
+            top: 10px;
+        }
+    }
+    .uword {
+        position: relative;
+        span {
+            position: absolute;
+            left: 35px;
+            top: 10px;
+        }
+    }
+    .uemail {
+        position: relative;
+        span {
+            position: absolute;
+            left: 8px;
+            top: 10px;
+        }
+    }
+    .self_forget {
+        position: relative;
+        label {
+            cursor: pointer;
+        }
+        input {
+            position: absolute;
+            left: 95px;
+            width: 15px;
+        }
+        span {
+            position: absolute;
+            left: 120px;
+            top: 5px;
+            font-weight: 400;
+        }
+        a {
+            color: rgb(109, 107, 107);
+            float: right;
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+    button {
+        position: absolute;
+        left: 115px;
+        top: 220px;
+        background-color: rgb(209, 25, 25);
+        border: 1px solid #ccc;
+        width: 58px;
+        height: 35px;
+        padding: 6px 12px;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+            background-color: rgb(160, 28, 28);
+        }
+    }
+}
